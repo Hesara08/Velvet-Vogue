@@ -1,2 +1,2 @@
-# Velvet-Vogue
+# VelvetVogue
 WDD Assignment
