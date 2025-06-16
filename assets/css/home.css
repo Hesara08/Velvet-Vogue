@@ -1,0 +1,280 @@
+.nav-buttons{
+    margin-left:30%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+h2{
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+h3{
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+h5{
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+h6{
+    color: #D8D8D8;
+}
+
+/* Navbar */
+.navbar{
+    font-size: 20px;
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    top: 0;
+    left: 0;
+       
+}
+
+.navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: #000;
+    transition: 0.4s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar i:hover,
+.navbar-light .navbar-nav .nav-link.active
+.navbar i:hover{
+    color: #2004ee;
+    border-bottom: 3px solid #2004ee;
+}
+
+.nav-link.active {
+    color: #2563eb !important;
+    font-weight: bold;
+    border-bottom: 2px solid #2563eb; 
+}
+
+/* cart & person */
+.icon1{
+    color: #000000;
+}
+
+.icon1:hover{
+    color: #2004ee;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 25px; 
+}
+
+
+.navbar i {
+    font-size: 1.2rem;
+    padding: 0 0.7px;
+    transition: 0.4s ease;
+    font-weight: 500;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* home */
+.home_img1 {
+    width: 100%;
+    height: 100%;
+    margin-left: auto;
+    margin-top: 100px; 
+    border-radius: 0px; 
+    box-shadow: 0 4px 24px rgba(255, 255, 255, 0.87);
+    object-fit: cover;
+    display: block;
+}
+
+#home{
+   position: absolute;
+   top: 40%;
+   left: 6%;
+}
+
+#home h5{
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: #000000;
+}
+
+#home span{
+    color: #2004ee;
+} 
+
+#home button{
+    background-color: #202de9;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: 0.4s ease;
+    
+}
+
+#home button:hover {
+    transform: scale(1.07);
+    box-shadow: 0 6px 24px rgba(24, 4, 238, 0.97);
+}
+ 
+#home button:hover{
+    transform: scale(1.07);
+    background-color: #041fee;
+    color: #fff;
+}
+
+/* Brands */
+#brands {
+    margin-top: 60px;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+#brands .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+#brands img {
+    max-width: 200px;
+    width: 100%;
+    max-height: 200px;
+    height: auto;
+    object-fit: contain;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(255, 255, 255, 0.953);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #ffffff;
+    padding: 10px;
+}
+
+#brands img:hover {
+    transform: scale(1.07);
+    box-shadow: 0 6px 24px rgba(4, 27, 238, 0.737);
+}
+
+/* Footer */
+.footer {
+    background: #181818;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    font-size: 1rem;
+    margin-top: 60px;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 30px;
+    gap: 40px;
+}
+
+.footer-col {
+    flex: 1 1 180px;
+    min-width: 180px;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    width: 120px;
+    margin-bottom: 15px;
+}
+
+.footer-col h5 {
+    color: #2004ee;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-col ul li {
+    margin-bottom: 10px;
+    color: #ccc;
+    font-size: 0.98rem;
+}
+
+.footer-col ul li i {
+    margin-right: 8px;
+    color: #2004ee;
+}
+
+.footer-col ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color: #fff;
+}
+
+.footer-col.social a {
+    display: inline-block;
+    margin-right: 12px;
+    color: #ccc;
+    font-size: 1.3rem;
+    transition: color 0.3s;
+}
+
+.footer-col.social a:hover {
+    color: #2004ee;
+}
+
+@media (max-width: 900px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0;
+    }
+    .footer-col {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 600px) {
+    .footer {
+        font-size: 0.95rem;
+        padding: 30px 0 15px 0;
+    }
+    .footer-logo {
+        width: 90px;
+    }
+}
+
